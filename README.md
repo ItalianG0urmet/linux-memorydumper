@@ -1,4 +1,4 @@
-# Linux Memory Dumper
+# Linux Memory Dumper ( Work in progess )
 
 This is a Linux memory dumper that extracts and searches the memory regions of any given process by its PID.
 It reads the `/proc/<PID>/maps` file to get information about memory mappings of the process and can optionally filter the results using specified criteria provided by the user.
