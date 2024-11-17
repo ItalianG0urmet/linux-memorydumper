@@ -15,10 +15,3 @@ It reads the `/proc/<PID>/maps` file to get information about memory mappings of
 ## Help
 - **-p <pid>** : Define the pid
 - **-f <string>** : Search for a string
-
-## Compilation
-
-Compilation is done by running following command:
-
-```bash
-g++ -std=c++11 main.cpp manager.cpp -o memorydumper
