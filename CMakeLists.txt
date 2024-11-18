@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 20)
 
 add_executable(memdumper src/main.cpp
         src/managers/manager.cpp
-        include/manager.h)
+        include/manager.h
+)

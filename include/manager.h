@@ -1,9 +1,9 @@
-#ifndef PID_H
-#define PID_H
+#ifndef MANAGER_H
+#define MANAGER_H
 #include <string>
 #include <vector>
 
 bool pidVerify(int pid);
-bool fileManager(std::string path, std::vector<std::string> fileStrings, std::string findOnly);
+bool fileManager(const std::string& path, std::vector<std::string> fileStrings, std::string findOnly);
 
-#endif //PID_H
+#endif //MANAGER_H
